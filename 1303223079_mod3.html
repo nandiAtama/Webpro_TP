@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>1303223079 - Nandi Triana</title>
+  </head>
+
+  <body>
+    <!-- Tag div digunakan sebagai container utama untuk membungkus seluruh konten halaman -->
+
+    <div class="container">
+      <h1>Profil Diri</h1>
+      <table>
+        <tr>
+          <th>Foto Profil</th>
+          <th>Video Perkenalan</th>
+        </tr>
+        <tr>
+          <td>
+            <!-- Tag img digunakan untuk menampilkan gambar profil pengguna -->
+            <img src="IMG_20220512_150159_431.jpg" alt="1303223079" />
+          </td>
+          <td>
+            <!-- Tag video digunakan untuk menampilkan video pada halaman web -->
+            <video
+              src="perkenalan.mp4"
+              width="400"
+              height="200"
+              controls
+            ></video>
+          </td>
+        </tr>
+      </table>
+
+      <h2>Tentang Saya</h2>
+      <p>
+        Halo! Saya adalah mahasiswa Telkom University prodi Teknologi Informasi
+        dan sekarang sedang mengambil mata kuliah pemrograman web
+      </p>
+
+      <!-- Tag table digunakan untuk menyusun data dalam bentuk tabel -->
+      <table>
+        <tr>
+          <!-- Tag th digunakan untuk memberikan judul kolom pada tabel -->
+          <th>Nama</th>
+          <td>Nandi Triana</td>
+        </tr>
+        <tr>
+          <th>Tanggal Lahir</th>
+          <td>26 Agustus 2003</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>nandiatama@student.telkomuniversity.ac.id</td>
+        </tr>
+      </table>
+
+      <h2>Keterampilan</h2>
+      <table>
+        <tr>
+          <th>Keterampilan</th>
+          <th>Tingkat</th>
+        </tr>
+        <tr>
+          <td>HTML & CSS</td>
+          <td>Mahir</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Menengah</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Pemula</td>
+        </tr>
+      </table>
+
+      <div class="form-section">
+        <h2>Hubungi Saya</h2>
+
+        <!-- Tag form digunakan untuk membuat formulir -->
+        <form>
+          <!-- Tag input digunakan untuk menerima masukan dari pengguna -->
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Pesan:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br /><br />
+
+          <!-- Tag button digunakan untuk membuat tombol pengiriman -->
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <div class="link-section">
+        <h2>Media Sosial</h2>
+
+        <!-- Tag a digunakan untuk membuat tautan ke halaman eksternal -->
+        <a href="https://www.instagram.com/_naandii/" target="_blank"
+          >Instagram</a
+        >
+        |
+        <a href="https://www.linkedin.com/in/nanditriana/" target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://github.com/nandiAtama" target="_blank">Github</a>
+      </div>
+    </div>
+  </body>
+</html>
